@@ -1,4 +1,4 @@
-package com.emegentes;
+package com.emergentes.Bean;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.RequestScoped;
 @ManagedBean

@@ -3,16 +3,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:h="http://xmlns.jcp.org/jsf/html"
       xmlns:f="http://xmlns.jcp.org/jsf/core">
-    <h:head>
-        <title>Inscripciones</title>
-    </h:head>
-    <h:body>
-        <h1>Incripcion en curso</h1>
+    <h:head><title>Inscripciones</title></h:head>
+    <h:body><h1>Incripcion en curso</h1>
         <h:form>
             <h:panelGrid columns="3" >
-                <h:outputLabel value="Nombre" for="nombre" />
+                 <h:outputLabel value="Nombre" for="nombre" />
                 <h:inputText id="nombre" label="Nombre" required="true" value="#{registroBeanCurso.nombre}" />
                 <h:message for="nombre" />
+
                 <h:outputLabel value="Apellidos" for="apellidos" />
                 <h:inputText id="apellidos" label="Apellidos" required="true" value="#{registroBeanCurso.apellidos}" />
                 <h:message for="apellidos" />
